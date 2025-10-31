@@ -23,6 +23,11 @@ const Index = () => {
       icon: 'Code',
       title: 'Разработка программного обеспечения',
       description: 'Создание надежных корпоративных решений и веб-приложений под ключ'
+    },
+    {
+      icon: 'Wrench',
+      title: 'Выездной монтаж оборудования',
+      description: 'Монтаж и настройка оконечного оборудования на объекте с последующим подключением к ЦОД заказчика'
     }
   ];
 
@@ -130,7 +135,7 @@ E-mail: alexeychal@gmail.com
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4">Наши услуги</h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">Полный спектр IT-услуг для вашего бизнеса</p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardHeader>
