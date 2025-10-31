@@ -5,7 +5,7 @@ export const EquipmentSection = () => {
   return (
     <section id="equipment" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">Оборудование</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">Оборудование с которым мы работаем</h2>
         <p className="text-center text-muted-foreground mb-12 text-lg animate-fade-in">Профессиональное оборудование для надежной работы систем</p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
