@@ -306,7 +306,7 @@ E-mail: alexeychal@gmail.com
                   </div>
                   <div className="flex items-center gap-2">
                     <Icon name="CheckCircle2" className="text-primary" size={18} />
-                    <span>Интеграция с ГИБДД</span>
+                    <span>Интеграция с ЦБДД</span>
                   </div>
                 </div>
               </CardContent>
