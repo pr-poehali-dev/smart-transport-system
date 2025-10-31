@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -47,12 +43,6 @@ const Index = () => {
       tech: 'AWS, Kubernetes, Terraform'
     }
   ];
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', message: '' });
-  };
 
   const downloadRequisites = () => {
     const requisites = `
@@ -272,46 +262,6 @@ E-mail: alexeychal@gmail.com
               </div>
             </div>
           </div>
-          
-          <Card className="max-w-2xl mx-auto">
-            <CardContent className="pt-6">
-              <h3 className="text-xl font-semibold mb-6 text-center">Оставьте заявку</h3>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label className="text-sm font-medium mb-2 block">Имя</label>
-                  <Input 
-                    placeholder="Ваше имя"
-                    value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="text-sm font-medium mb-2 block">Email</label>
-                  <Input 
-                    type="email"
-                    placeholder="email@example.com"
-                    value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="text-sm font-medium mb-2 block">Сообщение</label>
-                  <Textarea 
-                    placeholder="Расскажите о вашем проекте..."
-                    rows={5}
-                    value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    required
-                  />
-                </div>
-                <Button type="submit" className="w-full" size="lg">
-                  Отправить сообщение
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
