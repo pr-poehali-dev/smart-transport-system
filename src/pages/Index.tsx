@@ -237,10 +237,42 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-secondary text-secondary-foreground py-8 px-4">
-        <div className="container mx-auto text-center">
-          <div className="text-lg font-semibold mb-2">Халецкий.tech</div>
-          <p className="text-sm opacity-80">© 2025 Все права защищены</p>
+      <footer className="bg-secondary text-secondary-foreground py-12 px-4">
+        <div className="container mx-auto">
+          <div className="text-center mb-8">
+            <div className="text-2xl font-bold mb-2">Халецкий.tech</div>
+            <p className="text-sm opacity-80">ИП Халецкий А.Д.</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-sm opacity-90">
+            <div>
+              <h3 className="font-semibold mb-3">Реквизиты</h3>
+              <div className="space-y-2">
+                <p>ИНН: 616483750316</p>
+                <p>ОГРНИП: 325619600236862</p>
+                <p>ОКВЭД: 62.01</p>
+                <p>Расчетный счет: 40802810952740014032</p>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="font-semibold mb-3">Банковские реквизиты</h3>
+              <div className="space-y-2">
+                <p>Банк: ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК</p>
+                <p>БИК: 616143002</p>
+                <p>Корсчет: 30101810600000000602</p>
+              </div>
+            </div>
+            
+            <div className="md:col-span-2">
+              <h3 className="font-semibold mb-3">Юридический адрес</h3>
+              <p>344000, Ростовская область, г. Ростов-на-Дону, пр. Ленина 90Е, кв. 22</p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-8 pt-8 border-t border-secondary-foreground/20">
+            <p className="text-sm opacity-80">© 2025 Индивидуальный предприниматель Халецкий Алексей Дмитриевич. Все права защищены</p>
+          </div>
         </div>
       </footer>
     </div>
