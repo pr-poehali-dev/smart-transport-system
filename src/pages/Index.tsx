@@ -59,7 +59,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">TechSolutions</div>
+            <div className="text-2xl font-bold text-primary">Халецкий.tech</div>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors">Главная</button>
               <button onClick={() => scrollToSection('services')} className="hover:text-primary transition-colors">Услуги</button>
@@ -239,7 +239,7 @@ const Index = () => {
 
       <footer className="bg-secondary text-secondary-foreground py-8 px-4">
         <div className="container mx-auto text-center">
-          <div className="text-lg font-semibold mb-2">TechSolutions</div>
+          <div className="text-lg font-semibold mb-2">Халецкий.tech</div>
           <p className="text-sm opacity-80">© 2025 Все права защищены</p>
         </div>
       </footer>
