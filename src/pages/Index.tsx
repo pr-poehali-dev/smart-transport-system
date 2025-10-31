@@ -83,7 +83,12 @@ E-mail: alexeychal@gmail.com
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">ITS tech</div>
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                <Icon name="CircuitBoard" className="text-primary-foreground" size={20} />
+              </div>
+              <span className="text-2xl font-bold text-primary">ITS tech</span>
+            </div>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors">Главная</button>
               <button onClick={() => scrollToSection('services')} className="hover:text-primary transition-colors">Услуги</button>
@@ -385,7 +390,12 @@ E-mail: alexeychal@gmail.com
       <footer className="bg-secondary text-secondary-foreground py-12 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-8">
-            <div className="text-2xl font-bold mb-2">ITS tech</div>
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+                <Icon name="CircuitBoard" className="text-primary-foreground" size={24} />
+              </div>
+              <span className="text-2xl font-bold">ITS tech</span>
+            </div>
             <p className="text-sm opacity-80 mb-4">ИП Халецкий А.Д.</p>
             <Button 
               variant="outline" 
