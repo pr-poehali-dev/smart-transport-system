@@ -398,9 +398,9 @@ E-mail: alexeychal@gmail.com
             </div>
             <p className="text-sm opacity-80 mb-4">ИП Халецкий А.Д.</p>
             <Button 
-              variant="outline" 
+              variant="secondary" 
               onClick={downloadRequisites}
-              className="gap-2"
+              className="gap-2 bg-background text-foreground hover:bg-background/90"
             >
               <Icon name="Download" size={18} />
               Скачать реквизиты
