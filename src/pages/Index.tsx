@@ -198,6 +198,123 @@ E-mail: alexeychal@gmail.com
         </div>
       </section>
 
+      <section id="technologies" className="py-20 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <h2 className="text-4xl font-bold text-center mb-4">Технологии</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">Современный стек для надежных решений</p>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Icon name="Database" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle>Backend & База данных</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Node.js, Python, PHP</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>PostgreSQL, MySQL, MongoDB</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Redis, RabbitMQ</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Icon name="Globe" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle>Frontend</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>React, Vue.js, Angular</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>TypeScript, JavaScript</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>HTML5, CSS3, Tailwind</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Icon name="Cloud" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle>DevOps & Облако</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Docker, Kubernetes</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>AWS, Yandex Cloud</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>CI/CD, GitLab, Jenkins</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Icon name="Shield" className="text-primary" size={24} />
+                  </div>
+                  <CardTitle>ИТС системы</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Системы мониторинга транспорта</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Управление транспортными потоками</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="CheckCircle2" className="text-primary" size={18} />
+                    <span>Интеграция с ГИБДД</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="contacts" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">Свяжитесь с нами</h2>
