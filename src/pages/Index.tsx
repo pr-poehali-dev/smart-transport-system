@@ -83,7 +83,7 @@ E-mail: alexeychal@gmail.com
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">Халецкий.tech</div>
+            <div className="text-2xl font-bold text-primary">ITS tech</div>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors">Главная</button>
               <button onClick={() => scrollToSection('services')} className="hover:text-primary transition-colors">Услуги</button>
@@ -385,7 +385,7 @@ E-mail: alexeychal@gmail.com
       <footer className="bg-secondary text-secondary-foreground py-12 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-8">
-            <div className="text-2xl font-bold mb-2">Халецкий.tech</div>
+            <div className="text-2xl font-bold mb-2">ITS tech</div>
             <p className="text-sm opacity-80 mb-4">ИП Халецкий А.Д.</p>
             <Button 
               variant="outline" 
