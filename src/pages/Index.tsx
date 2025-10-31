@@ -220,14 +220,14 @@ const Index = () => {
                     <Icon name="Mail" className="text-primary mt-1" size={20} />
                     <div>
                       <div className="font-medium">Email</div>
-                      <div className="text-muted-foreground">info@techsolutions.ru</div>
+                      <div className="text-muted-foreground">alexeychal@gmail.com</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Phone" className="text-primary mt-1" size={20} />
                     <div>
                       <div className="font-medium">Телефон</div>
-                      <div className="text-muted-foreground">+7 (495) 123-45-67</div>
+                      <div className="text-muted-foreground">+7 (961) 430 84 02</div>
                     </div>
                   </div>
                 </div>
