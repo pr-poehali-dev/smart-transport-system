@@ -220,14 +220,14 @@ const Index = () => {
                     <Icon name="Mail" className="text-primary mt-1" size={20} />
                     <div>
                       <div className="font-medium">Email</div>
-                      <div className="text-muted-foreground">alexeychal@gmail.com</div>
+                      <a href="mailto:alexeychal@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">alexeychal@gmail.com</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Icon name="Phone" className="text-primary mt-1" size={20} />
                     <div>
                       <div className="font-medium">Телефон</div>
-                      <div className="text-muted-foreground">+7 (961) 430 84 02</div>
+                      <a href="tel:+79614308402" className="text-muted-foreground hover:text-primary transition-colors">+7 (961) 430 84 02</a>
                     </div>
                   </div>
                 </div>
