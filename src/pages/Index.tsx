@@ -108,7 +108,7 @@ E-mail: alexeychal@gmail.com
       <section id="hero" className="pt-32 pb-20 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="animate-fade-in">
+            <div className="animate-slide-in-left">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 Надежные IT-решения для вашего бизнеса
               </h1>
@@ -120,7 +120,7 @@ E-mail: alexeychal@gmail.com
                 <Icon name="ArrowRight" className="ml-2" size={20} />
               </Button>
             </div>
-            <div className="animate-slide-up">
+            <div className="animate-slide-in-right">
               <img 
                 src="https://cdn.poehali.dev/projects/569c5b05-ebf0-4c51-9f53-ae3af326fcc3/files/0bcc20e4-5864-427c-bf20-c2c1d5196e04.jpg" 
                 alt="Tech Infrastructure"
@@ -153,30 +153,87 @@ E-mail: alexeychal@gmail.com
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4">
+      <section id="workflow" className="py-20 px-4">
+        <div className="container mx-auto max-w-5xl">
+          <h2 className="text-4xl font-bold text-center mb-4">Этапы работы</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">Прозрачный процесс от заявки до запуска</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.1s' }}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  1
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Консультация</h3>
+                <p className="text-muted-foreground text-sm">
+                  Обсуждаем задачу, анализируем требования и предлагаем оптимальное решение
+                </p>
+              </div>
+            </div>
+
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  2
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Планирование</h3>
+                <p className="text-muted-foreground text-sm">
+                  Составляем техническое задание, смету и график выполнения работ
+                </p>
+              </div>
+            </div>
+
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.3s' }}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  3
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Реализация</h3>
+                <p className="text-muted-foreground text-sm">
+                  Выполняем монтаж, настройку и интеграцию оборудования и систем
+                </p>
+              </div>
+            </div>
+
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  4
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Поддержка</h3>
+                <p className="text-muted-foreground text-sm">
+                  Обеспечиваем техническое сопровождение и оперативное решение вопросов 24/7
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-center mb-12">О компании</h2>
-          <div className="space-y-6 text-lg text-muted-foreground">
-            <p>
+          <h2 className="text-4xl font-bold text-center mb-12 animate-fade-in">О компании</h2>
+          <div className="space-y-6 text-lg text-muted-foreground animate-fade-in">
+            <p className="animate-slide-up" style={{ animationDelay: '0.1s' }}>
               Мы — команда профессионалов с многолетним опытом в сфере информационных технологий. 
               Специализируемся на комплексном обслуживании интеллектуальных транспортных систем, 
               администрировании серверной инфраструктуры и разработке программного обеспечения.
             </p>
-            <p>
+            <p className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
               Наш подход — это сочетание передовых технологий, глубокой экспертизы и индивидуального 
               подхода к каждому проекту. Мы гарантируем надежность, безопасность и высокое качество 
               всех реализованных решений.
             </p>
             <div className="grid md:grid-cols-3 gap-8 pt-8">
-              <div className="text-center">
+              <div className="text-center animate-slide-up" style={{ animationDelay: '0.3s' }}>
                 <div className="text-4xl font-bold text-primary mb-2">10+</div>
                 <div className="text-muted-foreground">лет опыта</div>
               </div>
-              <div className="text-center">
+              <div className="text-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
                 <div className="text-4xl font-bold text-primary mb-2">50+</div>
                 <div className="text-muted-foreground">проектов</div>
               </div>
-              <div className="text-center">
+              <div className="text-center animate-slide-up" style={{ animationDelay: '0.5s' }}>
                 <div className="text-4xl font-bold text-primary mb-2">24/7</div>
                 <div className="text-muted-foreground">поддержка</div>
               </div>
@@ -185,10 +242,10 @@ E-mail: alexeychal@gmail.com
         </div>
       </section>
 
-      <section id="projects" className="py-20 px-4 bg-muted/30">
+      <section id="projects" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Реализованные проекты</h2>
-          <p className="text-center text-muted-foreground mb-12 text-lg">Примеры наших успешных решений</p>
+          <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">Реализованные проекты</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg animate-fade-in">Примеры наших успешных решений</p>
           <div className="grid md:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <Card key={index} className="animate-slide-up" style={{ animationDelay: `${index * 0.15}s` }}>
@@ -208,13 +265,13 @@ E-mail: alexeychal@gmail.com
         </div>
       </section>
 
-      <section id="technologies" className="py-20 px-4">
+      <section id="technologies" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-5xl">
-          <h2 className="text-4xl font-bold text-center mb-4">Технологии</h2>
-          <p className="text-center text-muted-foreground mb-12 text-lg">Современный стек для надежных решений</p>
+          <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">Технологии</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg animate-fade-in">Современный стек для надежных решений</p>
           
           <div className="grid md:grid-cols-2 gap-8">
-            <Card>
+            <Card className="animate-slide-up" style={{ animationDelay: '0.1s' }}>
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -241,7 +298,7 @@ E-mail: alexeychal@gmail.com
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -268,7 +325,7 @@ E-mail: alexeychal@gmail.com
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="animate-slide-up" style={{ animationDelay: '0.3s' }}>
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -295,7 +352,7 @@ E-mail: alexeychal@gmail.com
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="animate-slide-up" style={{ animationDelay: '0.4s' }}>
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
