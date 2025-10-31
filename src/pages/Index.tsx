@@ -209,10 +209,73 @@ E-mail: alexeychal@gmail.com
       </section>
 
       <section id="contacts" className="py-20 px-4">
-        <div className="container mx-auto max-w-2xl">
+        <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">Свяжитесь с нами</h2>
-          <Card>
+          
+          <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
+            <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
+              <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=39.712600%2C47.236000&z=16&pt=39.712600,47.236000,pm2rdm"
+                width="100%" 
+                height="100%" 
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen
+              />
+            </div>
+            
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="MapPin" className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg mb-2">Наш офис</h3>
+                  <p className="text-muted-foreground">Ростов-на-Дону, пр. Космонавтов 2/3</p>
+                  <p className="text-muted-foreground">2й этаж, офис 4</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Phone" className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg mb-2">Телефон</h3>
+                  <a href="tel:+79614308402" className="text-muted-foreground hover:text-primary transition-colors text-lg">
+                    +7 (961) 430-84-02
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Mail" className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg mb-2">Email</h3>
+                  <a href="mailto:alexeychal@gmail.com" className="text-muted-foreground hover:text-primary transition-colors text-lg">
+                    alexeychal@gmail.com
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Clock" className="text-primary" size={24} />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg mb-2">Режим работы</h3>
+                  <p className="text-muted-foreground">Пн-Пт: 9:00 - 18:00</p>
+                  <p className="text-muted-foreground">Сб-Вс: по договоренности</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <Card className="max-w-2xl mx-auto">
             <CardContent className="pt-6">
+              <h3 className="text-xl font-semibold mb-6 text-center">Оставьте заявку</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="text-sm font-medium mb-2 block">Имя</label>
@@ -247,25 +310,6 @@ E-mail: alexeychal@gmail.com
                   Отправить сообщение
                 </Button>
               </form>
-              
-              <div className="mt-8 pt-8 border-t">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="flex items-start gap-3">
-                    <Icon name="Mail" className="text-primary mt-1" size={20} />
-                    <div>
-                      <div className="font-medium">Email</div>
-                      <a href="mailto:alexeychal@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">alexeychal@gmail.com</a>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Icon name="Phone" className="text-primary mt-1" size={20} />
-                    <div>
-                      <div className="font-medium">Телефон</div>
-                      <a href="tel:+79614308402" className="text-muted-foreground hover:text-primary transition-colors">+7 (961) 430 84 02</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </CardContent>
           </Card>
         </div>
@@ -306,9 +350,14 @@ E-mail: alexeychal@gmail.com
               </div>
             </div>
             
-            <div className="md:col-span-2">
+            <div>
               <h3 className="font-semibold mb-3">Юридический адрес</h3>
               <p>344000, Ростовская область, г. Ростов-на-Дону, пр. Ленина 90Е, кв. 22</p>
+            </div>
+            
+            <div>
+              <h3 className="font-semibold mb-3">Фактический адрес</h3>
+              <p>Ростов-на-Дону, пр. Космонавтов 2/3, 2й этаж, офис 4</p>
             </div>
           </div>
           
