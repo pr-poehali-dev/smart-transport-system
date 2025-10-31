@@ -32,7 +32,7 @@ export const AboutSection = () => {
           </div>
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <img 
-              src="https://cdn.poehali.dev/projects/569c5b05-ebf0-4c51-9f53-ae3af326fcc3/files/b5c34a4f-deae-4b03-a7d4-0f78e6e3ad0a.jpg" 
+              src="https://cdn.poehali.dev/projects/569c5b05-ebf0-4c51-9f53-ae3af326fcc3/files/f7d3a0ca-f9d1-4cc2-9ca0-72f8300b3dbe.jpg" 
               alt="Team Work"
               className="rounded-lg shadow-xl w-full"
             />
