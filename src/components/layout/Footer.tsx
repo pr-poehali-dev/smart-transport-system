@@ -21,7 +21,7 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4">Контакты</h3>
             <div className="space-y-2 text-muted-foreground">
               <p>г. Ростов-на-Дону</p>
-              <p>пр. Ленина 90Е, кв. 22</p>
+              <p>пр. Космонавтов 2/3, офис 4</p>
               <p>Телефон: +7 (961) 430-84-02</p>
               <p>Email: alexeychal@gmail.com</p>
             </div>
