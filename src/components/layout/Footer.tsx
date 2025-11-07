@@ -1,4 +1,4 @@
-import Icon from '@/components/ui/icon';
+import Icon from "@/components/ui/icon";
 
 export const Footer = () => {
   return (
@@ -8,15 +8,20 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Icon name="CircuitBoard" className="text-primary-foreground" size={20} />
+                <Icon
+                  name="CircuitBoard"
+                  className="text-primary-foreground"
+                  size={20}
+                />
               </div>
               <span className="text-xl font-bold text-primary">ITS tech</span>
             </div>
             <p className="text-muted-foreground">
-              Надежные IT-решения для вашего бизнеса. Обслуживание ИТС, серверов и разработка ПО.
+              Надежные IT-решения для вашего бизнеса. Обслуживание ИТС, серверов
+              и разработка ПО.
             </p>
           </div>
-          
+
           <div>
             <h3 className="font-semibold mb-4">Контакты</h3>
             <div className="space-y-2 text-muted-foreground">
@@ -26,7 +31,7 @@ export const Footer = () => {
               <p>Email: alexeychal@gmail.com</p>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-semibold mb-4">Услуги</h3>
             <div className="space-y-2 text-muted-foreground">
@@ -37,9 +42,9 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 ITS tech. Все права защищены.</p>
+          <p>&copy; 2025 ITS tech. Все права защищены.</p>
         </div>
       </div>
     </footer>
