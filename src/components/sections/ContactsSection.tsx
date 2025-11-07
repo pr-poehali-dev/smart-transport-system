@@ -15,7 +15,7 @@ export const ContactsSection = ({ onDownloadRequisites }: ContactsSectionProps) 
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
           <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://yandex.ru/map-widget/v1/?ll=39.738447%2C47.222833&z=17&pt=39.738447,47.222833,pm2rdm"
+              src="https://yandex.ru/map-widget/v1/?ll=39.717876%2C47.228963&z=17&pt=39.717876,47.228963,pm2rdm"
               width="100%" 
               height="100%" 
               frameBorder="0"
@@ -33,7 +33,7 @@ export const ContactsSection = ({ onDownloadRequisites }: ContactsSectionProps) 
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">344000, Ростовская область, г. Ростов-на-Дону, пр. Ленина 90Е, кв. 22</p>
+                <p className="text-muted-foreground">г. Ростов-на-Дону, пр. Космонавтов 2/3, офис 4</p>
               </CardContent>
             </Card>
 
